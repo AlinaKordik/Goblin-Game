@@ -3,7 +3,7 @@
 ![Build and Deploy](https://github.com/AlinaKordik/Goblin-Game.git/actions/workflows/deploy.yml/badge.svg)
 
 Демо-версия проекта доступна на GitHub Pages:  
-👉 **[Открыть игру в браузере](https://github.com/AlinaKordik/Goblin-Game.git)**
+**[Открыть игру в браузере](https://github.com/AlinaKordik/Goblin-Game.git)**
 
 ## Описание
 Игровое поле размером 4×4, на котором случайным образом появляется персонаж и каждую секунду перемещается в новую случайную ячейку без использования `removeChild`.

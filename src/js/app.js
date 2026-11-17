@@ -1,4 +1,4 @@
-import goblinImgSrc from '../img/goblin.png';
+import goblinImgSrc from "../img/goblin.png";
 
 export default class GoblinGame {
   constructor(boardElement, size = 4) {
@@ -18,22 +18,22 @@ export default class GoblinGame {
   }
 
   renderBoard() {
-    this.board.innerHTML = '';
+    this.board.innerHTML = "";
     this.cells = [];
 
     for (let i = 0; i < this.size * this.size; i += 1) {
-      const cell = document.createElement('div');
-      cell.classList.add('cell');
+      const cell = document.createElement("div");
+      cell.classList.add("cell");
       this.board.append(cell);
       this.cells.push(cell);
     }
   }
 
   createGoblin() {
-    this.goblin = document.createElement('img');
+    this.goblin = document.createElement("img");
     this.goblin.src = goblinImgSrc;
-    this.goblin.alt = 'Персонаж';
-    this.goblin.classList.add('goblin');
+    this.goblin.alt = "Персонаж";
+    this.goblin.classList.add("goblin");
   }
 
   getRandomIndex() {
